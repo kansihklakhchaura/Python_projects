@@ -57,7 +57,7 @@ def handle_command(query):
 
 #gemini integration
 import google.generativeai as genai
-apikey="AIzaSyBNcCSJgiRYPXLG_rqotzHrGC0EUu5CnXY"
+apikey="[enter your api key]"
 genai.configure(api_key=apikey)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
